@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    height: 150vh;
+    background-color: #008af8;
+    color: white;
+    border-radius: 20%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding:2rem;
+}
+.navlinks{
+    display: flex;
+    gap: 3rem;
+    
+}
+.para{
+    width: 42%;
+    padding: 2rem;
+    line-height: 25px;
+}
+.head{
+    padding: 2rem;
+}
+form{
+    display: flex;
+    padding-left: 2rem;
+}
+form input{
+    padding: 1rem;
+    width: 18rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+}
+form button{
+    width: 7rem;
+    color: white;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    transform: translateX(-67px);
+}
+.new{
+    display: flex;
+    padding: 3rem;
+}
+.pic{
+    position: relative;
+}
+.pic img{
+    border-radius: 10%;
+}
+.rate {
+    background-color: red;
+    font-size: 2.2rem;
+    border-radius: 50%;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    transform: translate(0, -44px)
+} 
+
+.price1{
+position: absolute;
+border-radius: 10px;
+background-color: #008af8;
+font-size: 23px;
+padding: 15px;
+transform: translate(19rem,-29rem);
+font-weight: 600;
+color: #fff;
+padding: 15px;
+}
+
+
+
+
+.action{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 4rem;
+    gap: 1rem;
+}
+
+
+.plays{
+    position: relative;
+    
+}
+.plays img{
+    border-radius: 20px;
+}
+.hd{
+    display: flex;
+    gap: 3rem;
+}
+
+
+ .price{
+text-align: right;
+position: absolute;
+border-radius: 10px;
+background-color: #008af8;
+font-size: 17px;
+transform: translate(-70px, 33px);
+font-weight: 600;
+color: #fff;
+padding: 15px;
+}
+
+.storage{
+    display: flex;
+    gap: 4rem;
+    height: 50vh;
+    padding-left: 8rem;
+    /* margin: 2rem; */
+    transform: translateY(-35px);
+}
+.picture{
+    /* border: 2px solid white; */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    width: 15%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.picture i{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #008af8;
+}
+.picture h3{
+    text-align: center;
+}
+/*  */
+.main1{
+    background-color: azure;
+    height: 545px;
+    border-radius: 100px;
+}
+
+.game{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1rem;
+}
+.playcard img{
+    border-radius: 10%;
+}
+.playcard{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    border-radius: 10%;
+}
+.head1{
+    text-align: center;
+}
+
+
+
+
+
+
+/*  */
+.card{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2rem;
+    
+}
+
+
+.box1{
+    background-color: #0d6efd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width:224px;
+    height: 210px;
+    border-radius: 20px;
+}
+.box1 h1{
+    text-align: center;
+}
+.boximg img{
+    width: 224px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+.cat{
+    text-align: center;
+    padding: 5rem
+}
+.area{
+    padding: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+.box11{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 19rem;
+    gap: 2rem;
+    justify-content: center;
+   
+    
+}
+.hey1{
+    transform: translate(-57px, 200px);
+}
+.hey{
+    transform: translate(89px, 132px);
+}
+.form{
+    display: flex;
+    padding: 1 rem;
+    width: 500px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+.form input{
+   border-radius: 10%;
+   border: none;
+   /* outline: none; */
+   background-color: white;
+} 
+.btn{
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+footer{
+    color:white;
+    background-color: #0d6efd;
+    height: 140px;
+    border:2px solid #0d6efd;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
